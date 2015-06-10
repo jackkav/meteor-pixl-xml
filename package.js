@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'pixl-xml',
+  name: 'jackkav:pixl-xml',
   version: '1.0.2',
   summary: 'Wrapper for pixl-xml npm package',
-  git: 'https://github.com/jhuckaby/pixl-xml',
+  git: 'https://github.com/jackkav/meteor-pixl-xml',
   documentation: 'README.md'
 });
 
@@ -14,6 +14,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('pixl-xml');
+  api.use('jackkav:pixl-xml');
   api.addFiles('pixl-xml-tests.js','server');
 });

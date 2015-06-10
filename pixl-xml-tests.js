@@ -57,5 +57,3 @@ Tinytest.add('canParseXmlandGetValue', function (test) {
   var result = q ==="Q2";
   test.isTrue(q, "XML is parsed");
 });
-
-
